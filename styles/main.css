@@ -1,0 +1,25 @@
+#o-mnie{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#o-mnie>p {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 150%;
+}
+article img{
+    border-radius: 10%;
+}
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+article>p{
+    width: 400px;
+    word-spacing: 10px;
+}
