@@ -7,30 +7,47 @@
     <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/imageScroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <div id="up-arrow" class="visible">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
     <header>
         <p id="year"></p>
         <nav id="navigation">
         </nav>
     </header>
     <main>
-        <div id="o-mnie">
+        <div id="o-mnie" class="info-block">
             <p>O mnie</p>
-            <article>
+            <article id="o-mnie-article">
                 <img src="media/photo.jpg" alt="Bartosz Miecznikowski">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                      Error inventore quam voluptatem quae. Sapiente in cupiditate, 
                      officiis officiis numquam ratione porro?</p>
             </article>
-            
         </div>
-        
+        <hr>
+        <div id="oferta" class="info-block">
+            <p>Oferta</p>
+            <article id="oferta-article">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptatem, modi quam vero voluptate sequi aliquid quos, non eius eos eaque assumenda ullam consectetur accusantium, dolorum ut ipsum quisquam explicabo? Inventore, fugit! Facere a aperiam porro dicta ratione veritatis? Omnis saepe mollitia quasi nihil animi!
+            </article>
+            <div id="image-scroll-container">
+                <span><i class="fa-solid fa-angle-left scroll" id="left-scroll"></i></span>
+                <img src="media/1.jpg" alt="image" id="oferta-image">
+                <span><i class="fa-solid fa-angle-right scroll" id="right-scroll"></i></span>
+            </div>
     </main>
-    
 </body>
+
+
+<script src="scripts/scrollUp.js"></script>
 <script src="scripts/date.js"></script>
 <script src="scripts/nav.js"></script>
+<script src="scripts/imageScroll.js"></script>
 
 </html>

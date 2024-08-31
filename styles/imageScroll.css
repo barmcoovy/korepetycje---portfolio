@@ -1,0 +1,42 @@
+#oferta-image{
+    width:600px;
+    height:300px;
+    border-radius: 15px;
+}
+.scroll{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+#image-scroll-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    opacity: 1;
+    
+}
+.none{
+    animation: imageOpacityDown 1s linear;
+}
+.load{
+    animation: imageOpacityUp 1s linear;
+}
+@keyframes imageOpacityUp {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes imageOpacityDown {
+    0%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}

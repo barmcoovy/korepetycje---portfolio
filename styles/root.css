@@ -3,6 +3,9 @@
     --bg-primary-color: black;
     --text-primary-color: white;
 }
+html,body{
+    scroll-behavior: smooth;
+}
 body{
     background-color: var(--bg-primary-color);
     color: var(--text-primary-color);

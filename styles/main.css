@@ -1,10 +1,10 @@
-#o-mnie{
+.info-block{
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#o-mnie>p {
+.info-block>p {
     margin-bottom: 40px;
     text-align: center;
     font-size: 150%;
@@ -16,10 +16,32 @@ article{
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
 }
 article>p{
     width: 400px;
     word-spacing: 10px;
 }
+#up-arrow{
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 5%;
+    right: 40px;
+    font-size: 4rem;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+hr{
+    margin-top: 40px;
+}
+#oferta-article{
+    max-width: 600px;
+    font-size: 110%;
+    text-align: center;
+    word-spacing: 5px;
+}
+
